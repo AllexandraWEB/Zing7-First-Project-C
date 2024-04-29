@@ -5,7 +5,7 @@ const ContactUs = () => {
     <div className='bg-contact-color w-full p-4'>
       <div className='contact-container text-center md:text-center pb-3 md:pb-[70px]'>
         <h1 className='text-white font-bold text-3xl md:text-7xl leading-10 md:leading-72 tracking-tight mb-6 md:mb-7 mt-[30px] md:mt-[50px]'>Готови ли сте да работим заедно?</h1>
-        <p className='text-white text-base md:text-[20px]'>Оставете башият телефон и ние ще се свържем с вас, за да отговорим на всички въпроси</p>    
+        <p className='text-white text-base md:text-[20px]'>Оставете вашият телефон и ние ще се свържем с вас, за да отговорим на всички въпроси</p>    
         <div className="bg-white rounded-lg w-[330px] md:w-[380px] mb-7 mt-6 md:mt-9 m-auto">
                 <form className="flex">
                     <div className="flex-1 ">

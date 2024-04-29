@@ -13,14 +13,14 @@ const Nav = () => {
   };
 
     return (
-      <header className='padding-x py-8 absolute z-10 w-full'>
+    <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
                   <div className="ml-1">
                    <img src='/Crafto.svg' alt='Logo' width={130} height={29} className="ml-10"/>
                   </div>
             
               {showMenu && (
-          <div className="md:hidden fixed top-0 left-0 w-full h-screen bg-white z-50 flex justify-center items-center">
+          <div className="md:hidden fixed top-0 left-0 w-full h-screen overscroll-none bg-white z-50 flex justify-center items-center">
             <ul className="p-4 flex flex-col items-center space-y-10 text-[16px] text-nav-color">
               <li>
                 <button className="px-4 py-2" onClick={closeMenu}>
@@ -50,7 +50,7 @@ const Nav = () => {
                 <a onClick={toggleMenu}>Контакти</a>
               </li>
               <li className='mb-4'>
-                <p className="mt-[70px]" onClick={toggleMenu}>Профил</p>
+                <p className="mt-[50px]" onClick={toggleMenu}>Профил</p>
               </li>
               <li className='mb-4'>
                 <button className="border-2 font-semibold border-primary-color-t py-3 px-3 rounded-lg" onClick={toggleMenu}>
@@ -75,7 +75,7 @@ const Nav = () => {
           </ul>
           <div className='hidden max-lg:block'> 
             <button onClick={toggleMenu}>
-              <img src="/hamburger.svg" alt="Hamburger" width={25} height={25} className='mr-3'/>            
+              <img src="/hamburger.svg" alt="Hamburger" width={25} height={25} className='mr-5'/>            
            </button>
           </div>
           
